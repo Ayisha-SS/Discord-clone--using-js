@@ -1,0 +1,123 @@
+[
+    {
+      "name": "Midjourney",
+      "description": "Text-to-image AI where your imagination is the only limit",
+      "online_users": 1864708,
+      "members": 19439646,
+      "verified": true,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "LimeWire - create AI Images, Audio & Video",
+      "description": "Our active text-to-image AI community powers your journey to generate the best art, images, and design",
+      "online_users": 109889,
+      "members": 2306695,
+      "verified": true,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Leonardo.Ai",
+      "description": "Generative AI platform for content creation. Create game assets, artwork, design elements, and more!",
+      "online_users": 90170,
+      "members": 1815937,
+      "verified": true,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 4",
+      "description": "Description of Platform 4",
+      "online_users": 123456,
+      "members": 987654,
+      "verified": true,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 5",
+      "description": "Description of Platform 5",
+      "online_users": 789012,
+      "members": 345678,
+      "verified": true,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 6",
+      "description": "Description of Platform 6",
+      "online_users": 567890,
+      "members": 123456,
+      "verified": true,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 7",
+      "description": "Description of Platform 7",
+      "online_users": 456789,
+      "members": 876543,
+      "verified": false,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 8",
+      "description": "Description of Platform 8",
+      "online_users": 345678,
+      "members": 654321,
+      "verified": false,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 9",
+      "description": "Description of Platform 9",
+      "online_users": 234567,
+      "members": 432109,
+      "verified": false,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 10",
+      "description": "Description of Platform 10",
+      "online_users": 123456,
+      "members": 210987,
+      "verified": true,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 11",
+      "description": "Description of Platform 11",
+      "online_users": 987654,
+      "members": 789012,
+      "verified": false,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 12",
+      "description": "Description of Platform 12",
+      "online_users": 876543,
+      "members": 567890,
+      "verified": true,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 13",
+      "description": "Description of Platform 13",
+      "online_users": 765432,
+      "members": 345678,
+      "verified": false,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 14",
+      "description": "Description of Platform 14",
+      "online_users": 654321,
+      "members": 234567,
+      "verified": true,
+      "image":"images/content-logo.jpg"
+    },
+    {
+      "name": "Name of Platform 15",
+      "description": "Description of Platform 15",
+      "online_users": 54321,
+      "members": 234567,
+      "verified": true,
+      "image":"images/content-logo.jpg"
+    }
+]
+  
