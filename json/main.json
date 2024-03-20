@@ -1,123 +1,278 @@
+
 [
-    {
-      "name": "Midjourney",
-      "description": "Text-to-image AI where your imagination is the only limit",
-      "online_users": 1864708,
-      "members": 19439646,
-      "verified": true,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "LimeWire - create AI Images, Audio & Video",
-      "description": "Our active text-to-image AI community powers your journey to generate the best art, images, and design",
-      "online_users": 109889,
-      "members": 2306695,
-      "verified": true,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Leonardo.Ai",
-      "description": "Generative AI platform for content creation. Create game assets, artwork, design elements, and more!",
-      "online_users": 90170,
-      "members": 1815937,
-      "verified": true,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 4",
-      "description": "Description of Platform 4",
-      "online_users": 123456,
-      "members": 987654,
-      "verified": true,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 5",
-      "description": "Description of Platform 5",
-      "online_users": 789012,
-      "members": 345678,
-      "verified": true,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 6",
-      "description": "Description of Platform 6",
-      "online_users": 567890,
-      "members": 123456,
-      "verified": true,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 7",
-      "description": "Description of Platform 7",
-      "online_users": 456789,
-      "members": 876543,
-      "verified": false,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 8",
-      "description": "Description of Platform 8",
-      "online_users": 345678,
-      "members": 654321,
-      "verified": false,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 9",
-      "description": "Description of Platform 9",
-      "online_users": 234567,
-      "members": 432109,
-      "verified": false,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 10",
-      "description": "Description of Platform 10",
-      "online_users": 123456,
-      "members": 210987,
-      "verified": true,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 11",
-      "description": "Description of Platform 11",
-      "online_users": 987654,
-      "members": 789012,
-      "verified": false,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 12",
-      "description": "Description of Platform 12",
-      "online_users": 876543,
-      "members": 567890,
-      "verified": true,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 13",
-      "description": "Description of Platform 13",
-      "online_users": 765432,
-      "members": 345678,
-      "verified": false,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 14",
-      "description": "Description of Platform 14",
-      "online_users": 654321,
-      "members": 234567,
-      "verified": true,
-      "image":"images/content-logo.jpg"
-    },
-    {
-      "name": "Name of Platform 15",
-      "description": "Description of Platform 15",
-      "online_users": 54321,
-      "members": 234567,
-      "verified": true,
-      "image":"images/content-logo.jpg"
-    }
+  {
+    "id": 1,
+    "name": "Midjourney",
+    "description": "Text-to-image AI where your imagination is the only limit",
+    "online_users": 1864708,
+    "members": 19439646,
+    "verified": true,
+    "type": "Tech",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Gaming Paradise",
+    "description": "The ultimate gaming community for all gamers!",
+    "online_users": 12457,
+    "members": 356782,
+    "verified": false,
+    "type": "Gaming",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Music Lovers Club",
+    "description": "Join us for discussions about your favorite music!",
+    "online_users": 3654,
+    "members": 78901,
+    "verified": true,
+    "type": "Music",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 4,
+    "name": "LearnTech",
+    "description": "A community dedicated to learning and technology enthusiasts.",
+    "online_users": 9876,
+    "members": 234567,
+    "verified": true,
+    "type": "Education",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Entertainment Hub",
+    "description": "Join us for fun, laughter, and entertainment!",
+    "online_users": 5432,
+    "members": 123456,
+    "verified": false,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Tech Innovators",
+    "description": "Discuss the latest innovations and technologies with experts!",
+    "online_users": 8765,
+    "members": 345678,
+    "verified": true,
+    "type": "Tech",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Art & Design Studio",
+    "description": "For artists and designers to showcase their work and collaborate.",
+    "online_users": 987,
+    "members": 45678,
+    "verified": false,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Science Enthusiasts",
+    "description": "Explore the wonders of science with like-minded individuals!",
+    "online_users": 456,
+    "members": 56789,
+    "verified": true,
+    "type": "Education",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Sports Fanatics",
+    "description": "Join us for discussions about your favorite sports teams and events!",
+    "online_users": 123,
+    "members": 4567,
+    "verified": false,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Coding Wizards",
+    "description": "A community of coding enthusiasts and professionals.",
+    "online_users": 4567,
+    "members": 34567,
+    "verified": true,
+    "type": "Tech",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Bookworms Club",
+    "description": "For book lovers to discuss their favorite reads and recommendations.",
+    "online_users": 789,
+    "members": 23456,
+    "verified": false,
+    "type": "Education",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Foodies Unite",
+    "description": "Join us for discussions about your favorite foods and recipes!",
+    "online_users": 345,
+    "members": 12345,
+    "verified": true,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Movie Buffs",
+    "description": "Discuss the latest movies and TV shows with fellow enthusiasts.",
+    "online_users": 678,
+    "members": 56789,
+    "verified": false,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Health & Fitness",
+    "description": "A community for fitness enthusiasts and health-conscious individuals.",
+    "online_users": 987,
+    "members": 87654,
+    "verified": true,
+    "type": "Education",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Coding Cafe",
+    "description": "Relax and code with fellow programmers in this cozy cafe-like environment.",
+    "online_users": 2345,
+    "members": 12345,
+    "verified": true,
+    "type": "Tech",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Adventure Seekers",
+    "description": "For adrenaline junkies and outdoor enthusiasts seeking thrilling adventures!",
+    "online_users": 543,
+    "members": 4567,
+    "verified": false,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Photography Enthusiasts",
+    "description": "Share your passion for photography and learn new techniques.",
+    "online_users": 876,
+    "members": 7890,
+    "verified": true,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Business Minds",
+    "description": "Connect with entrepreneurs and discuss business strategies and ideas.",
+    "online_users": 234,
+    "members": 3456,
+    "verified": false,
+    "type": "Education",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Film Fanatics",
+    "description": "A community for cinephiles to discuss classic and contemporary films.",
+    "online_users": 567,
+    "members": 6789,
+    "verified": true,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Travelers Club",
+    "description": "Share your travel experiences and get inspired by others' adventures!",
+    "online_users": 890,
+    "members": 9012,
+    "verified": false,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Artificial Intelligence Forum",
+    "description": "Discuss the latest developments and applications of AI technology.",
+    "online_users": 1234,
+    "members": 23456,
+    "verified": true,
+    "type": "Tech",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Fashion Trends",
+    "description": "Stay updated on the latest fashion trends and styles.",
+    "online_users": 5678,
+    "members": 34567,
+    "verified": false,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Language Exchange",
+    "description": "Connect with people from around the world to practice and learn new languages.",
+    "online_users": 901,
+    "members": 8901,
+    "verified": true,
+    "type": "Education",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Pet Lovers Community",
+    "description": "Share your love for pets and connect with fellow animal enthusiasts.",
+    "online_users": 234,
+    "members": 4567,
+    "verified": false,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Culinary Creations",
+    "description": "For foodies who love cooking and experimenting with new recipes.",
+    "online_users": 789,
+    "members": 12345,
+    "verified": true,
+    "type": "Entertainment",
+    "logo": "images/content-logo.jpg",
+    "image": "images/content.jpg"
+  }
 ]
-  
