@@ -102,6 +102,13 @@ a:hover,
     display: none;
     font-size: 30px;
 }
+ .nav-item .hamburg{
+    display: none;
+    cursor: pointer;
+}
+ .hamburg-item{
+    display: none;
+}
 #main .item .login a:hover{
     box-shadow:  2px 8px 5px rgba(32, 32, 32, 0.2);
     color: #1629f7;
@@ -493,6 +500,94 @@ a:hover,
         display: none !important;
         
     }
+
+     .nav-item .hamburg{
+        display:flex ;
+    }
+     .hamburg-item{
+        /* display: none; */
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+        padding: 24px 24px 50px 25px;
+        position: fixed;
+        right:-10px;
+        top: 1px;
+        transform: translate(0px) translate(0px);
+        transition:  300ms ease 0s;
+        opacity: 1;
+        gap: 0;
+        border-top-left-radius: 10px;
+        height: 100vh;
+        color: #23272A;
+        z-index: 1;
+        width: 50%;
+    }
+    .hamburg-item.active{
+        display: flex;
+        right: 0;
+    }
+     .hamburg-item .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+     .hamburg-item .top .hamburg-logo{
+        width: 40%;
+        filter: invert();
+    }
+     .hamburg-item .top .hamburg-login{
+        color: #000;
+    }
+     .hamburg-item .top span{
+        color: #000;
+        font-size: 30px;
+    }
+     .hamburg-item .top {
+        padding-bottom: 20px;
+    }
+     .hamburg-item .bottom{
+        border-top:1px solid #e4dfdf;
+        padding: 20px 0 10px;
+        line-height: 40px;
+    }
+     .hamburg-item .bottom .hamburg-list ul{
+        padding-left: 0;
+        padding-bottom: 30px;
+    }
+     .hamburg-item .bottom .hamburg-list ul li a{
+       font-size: 16px;
+       line-height: 24px;
+       font-family: "Poppins-light";
+       color:#000;
+       margin-bottom: 50px;
+       padding: 8px 16px;
+    }
+     .hamburg-item .bottom .hamburg-list ul li.arrow a{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+     .hamburg-item .bottom .hamburg-list ul li.arrow a i{
+        font-size: 20px;
+        font-weight: 900;
+    }
+     .hamburg-item .bottom .hamburg-dwnld{
+        margin: 30px 0 60px ;
+    }
+     .hamburg-item .bottom a.btn-dwnld{
+        background-color: #5865F2;
+        padding: 10px 80px;
+        color: #fff;
+        display: flex;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+        border-radius: 28px;
+    }
+
+
 }
 @media all and (max-width:768px){
     .logo{
@@ -526,6 +621,9 @@ a:hover,
         /* align-items: left; */
         font-size: 28px;
         text-align: left;
+    }
+    .hamburg-item{
+        width: 70%;
     }
 }
 @media all and (max-width:360px){

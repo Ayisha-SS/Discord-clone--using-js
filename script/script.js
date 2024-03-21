@@ -143,3 +143,18 @@ tabListButtons.forEach(button => {
     document.body.classList.remove('fade-background')
   });
 });
+
+
+const hamburg = document.querySelector(".hamburg");
+        const hamburgItem = document.querySelector(".hamburg-item");
+        hamburg.addEventListener('click', () => {
+            hamburg.classList.toggle('active');
+            hamburgItem.classList.toggle('active');
+            // document.body.style.overflow = 'hidden';
+        })
+        const close = document.querySelector('.close');
+        close.addEventListener('click', () => {
+            hamburg.classList.remove('active');
+            hamburgItem.classList.remove('active');
+            // document.body.style.overflow = 'auto';
+        })
