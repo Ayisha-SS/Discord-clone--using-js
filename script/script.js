@@ -69,7 +69,7 @@ fetch('json/main.json')
     filterButtons.forEach(button => {
       const type = button.querySelector('h4').textContent.toLowerCase();
       if (type === 'all') {
-        button.querySelector('h4:last-child').textContent = data.length; // Total number of items
+        button.querySelector('h4:last-child').textContent = data.length; 
       } else {
         const count = data.filter(community => community.type.toLowerCase() === type).length;
         button.querySelector('h4:last-child').textContent = count;

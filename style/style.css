@@ -144,9 +144,7 @@ a:hover,
 }
 
 /* communities... */
-#communities{
 
-}
 #communities .container{
     display: flex;
     align-items: center;
@@ -335,14 +333,14 @@ a:hover,
     display: flex !important;
     margin-top: 30px;
     border-radius: 5px;
-    padding: 7px;
+    padding: 3px;
     align-items: center;
     background-color: #00000014;
     width: 20%;
 }
 #communities .container .content .item .item-content .item-element .details .verified .verified-img{
     width:80%;
-    margin-right: 6px;
+    margin-right: 4px;
 } 
 #communities .container .content .item .item-content .item-element .details .verified .verified-img img{
     width: 100%;
@@ -486,10 +484,8 @@ a:hover,
         font-family: "Poppins-light";
     }
     #communities .container .content .item .item-content .item-element .details .verified{
-        display: none !important;
-        
+        display: none !important;    
     }
-
      .nav-item .hamburg{
         display:flex ;
     }
