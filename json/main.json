@@ -9,7 +9,7 @@
     "verified": true,
     "type": "Science & Tech",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-2.jpg"
   },
   {
     "id": 2,
@@ -20,7 +20,7 @@
     "verified": false,
     "type": "Gaming",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-3.jpg"
   },
   {
     "id": 3,
@@ -31,7 +31,7 @@
     "verified": true,
     "type": "Music",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-5.jpg"
   },
   {
     "id": 4,
@@ -42,7 +42,7 @@
     "verified": true,
     "type": "Education",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-8.jpg"
   },
   {
     "id": 5,
@@ -53,7 +53,7 @@
     "verified": false,
     "type": "Entertainment",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-9.jpg"
   },
   {
     "id": 6,
@@ -64,7 +64,7 @@
     "verified": true,
     "type": "Science & Tech",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-3.jpg"
   },
   {
     "id": 7,
@@ -75,7 +75,7 @@
     "verified": false,
     "type": "Entertainment",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-8.jpg"
   },
   {
     "id": 8,
@@ -86,7 +86,7 @@
     "verified": true,
     "type": "Education",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-9.jpg"
   },
   {
     "id": 9,
@@ -97,7 +97,7 @@
     "verified": false,
     "type": "Entertainment",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-5.jpg"
   },
   {
     "id": 10,
@@ -108,7 +108,7 @@
     "verified": true,
     "type": "Science & Tech",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-5.jpg"
   },
   {
     "id": 11,
@@ -119,7 +119,7 @@
     "verified": false,
     "type": "Education",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-5.jpg"
   },
   {
     "id": 12,
@@ -130,7 +130,7 @@
     "verified": true,
     "type": "Entertainment",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-3.jpg"
   },
   {
     "id": 13,
@@ -141,7 +141,7 @@
     "verified": false,
     "type": "Entertainment",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/conten-2.jpg"
   },
   {
     "id": 14,
@@ -152,7 +152,7 @@
     "verified": true,
     "type": "Education",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-3.jpg"
   },
   {
     "id": 15,
@@ -163,7 +163,7 @@
     "verified": true,
     "type": "Science & Tech",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-8.jpg"
   },
   {
     "id": 16,
@@ -196,7 +196,7 @@
     "verified": false,
     "type": "Education",
     "logo": "images/content-logo.jpg",
-    "image": "images/content.jpg"
+    "image": "images/content-2.jpg"
   },
   {
     "id": 19,
