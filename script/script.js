@@ -16,6 +16,7 @@ fetch('json/main.json')
           </div>
           <div class="details">
             <div class="heading">
+            
               <h3>${community.name}</h3>
             </div>
             <p class="description">${community.description}</p>
@@ -35,7 +36,7 @@ fetch('json/main.json')
         itemElement.appendChild(communityDiv);
       });
     }
-    renderCommunities(data); // Initial render
+    renderCommunities(data); 
 
     // Event listeners for filter buttons
     const filterButtons = document.querySelectorAll('.list-content');
@@ -45,6 +46,12 @@ fetch('json/main.json')
 
         filterButtons.forEach(btn => btn.classList.remove('active'));
         button.classList.add('active');
+
+
+        const categoryName = button.querySelector('h4').textContent; // Get the category name
+        const categoryHeading = document.querySelector('.tab h5'); // Get the <h5> element in the tab
+        // Update the <h5> element with the category name
+        categoryHeading.textContent = categoryName;
 
         const type = button.querySelector('h4').textContent.toLowerCase();
         if (type === 'all') {
@@ -112,3 +119,27 @@ fetch('json/main.json')
 
   })
   .catch(error => console.error('Error fetching JSON:', error));
+
+
+  const tab = document.querySelector('.tab');
+  const tabList = document.querySelector('.tab-list');
+
+// Add event listener to the tab to toggle the display of tab list
+tab.addEventListener('click', () => {
+  tabList.classList.toggle('show');
+  document.body.classList.toggle('fade-background'); 
+});
+
+// Add event listener to hide the tab list when clicking outside of it
+document.addEventListener('click', (event) => {
+  if (!tab.contains(event.target) && !tabList.contains(event.target)) {
+    tabList.classList.remove('show');
+  }
+});
+const tabListButtons = tabList.querySelectorAll('.list-content');
+tabListButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    tabList.classList.remove('show');
+    document.body.classList.remove('fade-background')
+  });
+});
