@@ -188,7 +188,7 @@ a:hover,
 }
 #communities .container .content{
     display: flex;
-    /* padding: 10px 150px; */
+    width: 80%;
 }
 #communities .container .content .list{
     display: flex;
@@ -256,7 +256,8 @@ a:hover,
    background-color: #00000014;
 }
 #communities .container .content .item .item-content .item-element .image{
-    width: 10%;
+    width: 80%;
+    height: 30%;
     /* max-width: 256px; */
     /* height: 256px; */
     /* border-radius: 20px; */
@@ -326,7 +327,7 @@ a:hover,
     width: 20%;
 }
 #communities .container .content .item .item-content .item-element .details .verified .verified-img{
-    width:10%;
+    width:80%;
     margin-right: 6px;
 } 
 #communities .container .content .item .item-content .item-element .details .verified .verified-img img{
