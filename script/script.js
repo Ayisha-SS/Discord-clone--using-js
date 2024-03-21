@@ -1,4 +1,4 @@
-
+//fetch data and map....
 fetch('json/main.json')
   .then(response => response.json())
   .then(data => {
@@ -38,7 +38,7 @@ fetch('json/main.json')
     }
     renderCommunities(data); 
 
-    // Event listeners for filter buttons
+    // button filter....
     const filterButtons = document.querySelectorAll('.list-content');
     filterButtons[0].classList.add('active')
     filterButtons.forEach(button => {
@@ -47,10 +47,9 @@ fetch('json/main.json')
         filterButtons.forEach(btn => btn.classList.remove('active'));
         button.classList.add('active');
 
-
-        const categoryName = button.querySelector('h4').textContent; // Get the category name
-        const categoryHeading = document.querySelector('.tab h5'); // Get the <h5> element in the tab
-        // Update the <h5> element with the category name
+        //category name update in responsive...
+        const categoryName = button.querySelector('h4').textContent; 
+        const categoryHeading = document.querySelector('.tab h5'); 
         categoryHeading.textContent = categoryName;
 
         const type = button.querySelector('h4').textContent.toLowerCase();
@@ -77,7 +76,7 @@ fetch('json/main.json')
       }
     });
 
-    // Function to update total number of results
+    // update total number of results....
     function updateResultsCount() {
       const totalResults = itemElement.querySelectorAll('.item-element').length;
       const resultsSpan = document.querySelector('.results');
@@ -94,26 +93,23 @@ fetch('json/main.json')
       renderCommunities(filtered);
     });
 
-      // Get the input field and clear button
+     //clear button-input field...
       const exploreInput = document.querySelector('.explore-input');
       const clearButton = document.querySelector('.clear-input');
   
       clearButton.style.display = 'none';
 
-      // Add event listener to toggle the visibility of the clear button
+      // toggle clear button...
       exploreInput.addEventListener('input', () => {
         clearButton.style.display = exploreInput.value ? 'inline-block' : 'none';
       });
   
-      // Add event listener to clear the input when the clear button is clicked
+      // clear input type...
       clearButton.addEventListener('click', () => {
-        exploreInput.value = ''; // Clear the input field
-        clearButton.style.display = 'none'; // Hide the clear button
-  
-        // Update communities based on cleared input
+        exploreInput.value = ''; 
+        clearButton.style.display = 'none'; 
         renderCommunities(data);
   
-        // Update the total number of results
         updateResultsCount();
       });
 
@@ -124,13 +120,13 @@ fetch('json/main.json')
   const tab = document.querySelector('.tab');
   const tabList = document.querySelector('.tab-list');
 
-// Add event listener to the tab to toggle the display of tab list
-tab.addEventListener('click', () => {
+// tab list...
+  tab.addEventListener('click', () => {
   tabList.classList.toggle('show');
   document.body.classList.toggle('fade-background'); 
 });
 
-// Add event listener to hide the tab list when clicking outside of it
+// hide tab list when clicking outside ....
 document.addEventListener('click', (event) => {
   if (!tab.contains(event.target) && !tabList.contains(event.target)) {
     tabList.classList.remove('show');
@@ -144,8 +140,8 @@ tabListButtons.forEach(button => {
   });
 });
 
-
-const hamburg = document.querySelector(".hamburg");
+//display hamburg item...
+    const hamburg = document.querySelector(".hamburg");
         const hamburgItem = document.querySelector(".hamburg-item");
         hamburg.addEventListener('click', () => {
             hamburg.classList.toggle('active');

@@ -145,7 +145,6 @@ a:hover,
 
 /* communities... */
 #communities{
-    /* padding: 20px 50px; */
 
 }
 #communities .container{
@@ -153,8 +152,6 @@ a:hover,
     align-items: center;
     flex-direction: column;
     padding: 10px 150px;
-    /* justify-content: space-between; */
-    /* text-align: center; */
 }
 #communities .container .search{
     display: flex;
@@ -185,9 +182,6 @@ a:hover,
 #communities .container .search .explore .clear-input{
     font-size: 20px;
     padding: 5px;
-    /* width: 1.2em; */
-    /* height: 1.2em; */
-    /* text-align: center; */
     justify-content: center;
     background-color: #7a7979;
     border-radius: 50%;
@@ -273,7 +267,6 @@ a:hover,
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 22px;
-    /* margin-left: 10px; */
 }
 #communities .container .content .item .item-content .item-element:hover{
    background-color: #00000014;
@@ -282,7 +275,6 @@ a:hover,
     width: auto;
     height: 100%;
     max-width: 256px;
-    /* height: 256px; */
     border-radius: 20%;
     margin-right: 16px;
     object-fit: cover;
@@ -295,7 +287,6 @@ a:hover,
 #communities .container .content .item .item-content .item-element .details{
     display: flex;
     flex-direction: column;
-    /* width: 40%; */
 }
 #communities .container .content .item .item-content .item-element .details .heading{
     display: flex;
@@ -309,12 +300,11 @@ a:hover,
 }
 #communities .container .content .item .item-content .details .heading .logo-img{
     width: 30px;
-    /* height: 20px; */
     margin-right: 10px;
 }
 #communities .container .content .item .item-content .details .heading .logo-img img{
-    /* width: 100%;
-    display: block; */
+    width: 100%;
+    display: block;
 }
 
 #communities .container .content .item .item-content .item-element .details .description{
@@ -375,7 +365,6 @@ a:hover,
 @media all and (max-width:1280px){
     #main #spotlight .content h1{
         font-size: 44px;
-        /* margin: 0 150px; */
     }
 }
 @media all and (max-width:1080px){
@@ -412,6 +401,7 @@ a:hover,
     }
     #main #spotlight .content p{
         text-align: left;
+        margin-left: 0;
     }
 
     #communities .container{
@@ -422,7 +412,6 @@ a:hover,
         margin-bottom: 20px;
     }
     #communities .container .content{
-        /* display: flex; */
         flex-direction: column;
     }
     #communities .container .content .list{
@@ -505,7 +494,6 @@ a:hover,
         display:flex ;
     }
      .hamburg-item{
-        /* display: none; */
         flex-direction: column;
         justify-content: center;
         background-color: #fff;
@@ -586,8 +574,6 @@ a:hover,
         text-align: center;
         border-radius: 28px;
     }
-
-
 }
 @media all and (max-width:768px){
     .logo{
@@ -616,9 +602,6 @@ a:hover,
 }
 @media all and (max-width:480px){
     #main #spotlight .content h1{
-        /* width: 50%; */
-        /* display: flex; */
-        /* align-items: left; */
         font-size: 28px;
         text-align: left;
     }
